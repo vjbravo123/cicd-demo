@@ -9,7 +9,7 @@ app.use(express.json());
 // Routes
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'Hello from CI/CD!', 
+    message: 'Hello from CI/CD! v2', 
     version: '1.0',
     timestamp: new Date().toISOString()
   });
